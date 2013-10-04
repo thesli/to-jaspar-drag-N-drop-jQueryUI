@@ -1,0 +1,83 @@
+
+.eventCard {
+    border: #ffffff 1px solid;
+    box-shadow: 1px 1px 1px 1px;
+    width: 350px;
+    height: 100px;
+    border-bottom: 0 none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+    position: relative;
+    margin-left: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.eventCard>img.eventPic {
+    padding-top: 0px;
+    width: 95px;
+    height: 98px;
+    padding-bottom: 0px;
+
+}
+.eventCard .eventContent{
+    margin-top: 10px;
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+}
+.eventCard>.eventContentWrapper>.lowBar {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-right: 7px;
+}
+
+.eventCard>.eventContentWrapper>.lowBar i{
+    padding: 5px;
+}
+
+.eventCard>.imgWrapper {
+    top: 0px;
+    position: absolute;
+}
+
+.eventCard>.eventContentWrapper {
+    margin-left: 110px;
+}
+
+.eventCard>.eventName {
+
+}
+
+body {
+    margin-top: 0px;
+}
+
+#leftBar {
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    border-right: 1px solid lightseagreen;
+    background: #eab92d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #eab92d 0%, #c79810 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eab92d), color-stop(100%,#c79810)); /* Chrome,Safari4+ */
+    background: -o-linear-gradient(top,  #eab92d 0%,#c79810 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #eab92d 0%,#c79810 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #eab92d 0%,#c79810 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eab92d', endColorstr='#c79810',GradientType=0 ); /* IE6-9 */
+}
+
+#leftBar>img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#content {
+    padding-top: 20px;
+    margin-left: 110px;
+}
+

@@ -1,0 +1,5 @@
+spec/
+.idea
+*.coffee
+**/*.coffee
+karma.conf.js
